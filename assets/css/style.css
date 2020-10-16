@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{width: 90vw;
+margin: auto;}
+/* Utility */
+.cl_fix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.lft{float: left;}
+.rgh{float: right;}
+.w_33{width: 33.3333%;}
+/* /Utility */
+
+/* header */
+
+.menu_l{
+width: 30%}
+.menu_r{
+width: 30%}
+
+.tb_cel, .col {
+  width: 25%;
+  border: 1px solid black;
+}
+.c1row1{width: 40%;}
+.c2row1{width: 60%;}
+.c1row2{width: 50%;}
+.c2row2{width: 50%;}
+
+.col
+
+/* Debug */
+hr{
+  border-style: solid;
+  border: 3px solid black;
+}
+.debug._o{
+  width: 100%;
+  background-color: yellow;
+  border: 2px solid blue;
+}
+.debug._u{
+  margin: auto;
+  width: 80vw;
+  background-color: red;
+  border: 3px solid pink;
+}
+/* colori */
+/* .debug{
+  background-color: lightblue;
+  border: 2px solid blue;
+} */
+.grey{background-color: grey!important;}
+.orange{background-color: orange!important;}
+.pink{background-color: pink!important;}
+.yellow{background-color: yellow!important;}
+.blue{background-color: blue!important;}
+.red{  background-color: red!important;}
+.purple{background-color: purple!important;}
+.h25{height: 25px;}
+.h50{height: 50px;}
+.h100{height: 100px;}
+.h150{height: 150px;}
+.h200{height: 200px;}
+.h300{height: 300px;}
+.h600{height: 600px;}
+/* /colori */
+/* /Debug */
