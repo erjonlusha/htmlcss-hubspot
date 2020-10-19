@@ -25,6 +25,7 @@
 .cr_white{color:white;}
 .bg_blue{background-color: #32495b;}
 .bg_tur{background-color: #afebe4;}
+.bg_gradient_tuchese{background-color: #00bca6;}
 .bg_grey{background-color: #f4f9fd;}
 .bg_orange{background-color: #fe775a;}
 .bg_white{background-color: white;}
@@ -44,7 +45,7 @@
 .pd_20{padding: 20px 0;}
 .mr_10{margin:10px;}
 .img_height{height: 250px;}
-.img_width{width: 100px;}
+.img_width, .img_logs{width: 100px;}
 /* /Utility */
 
 /* header */
@@ -123,12 +124,18 @@ section.h_text{
 
 .tb_cel, .col {
   width: 25%;
-  border: 1px solid black;
+  border: 1px solid white;
 }
 .card{
   box-shadow: 0 0 5px #e6ecf1;
   border-radius: 5px;
   background-color: white;
+}
+
+div.tab >  div > div{ display: inline-block;}
+img.woman{
+  text-align: right;
+  height: 250px;
 }
 .c1row1{width: 40%;}
 .c2row1{width: 60%;}
